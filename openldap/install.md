@@ -17,7 +17,7 @@ For the first option select **No** to write a new configuration.  For the DNS do
 
 First we need create an ecrypted password to use in the ldif config file
 ```
-slappasswd -f {ssha}
+slappasswd -h {ssha}
 New Password:
 Re-enter new password:
 {SSHA}encryptedstring
